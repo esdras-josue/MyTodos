@@ -32,12 +32,12 @@ namespace MyTodos.ViewModel
         [RelayCommand]
         void Delete(string s)
         {
+            // eliminar una tarea
             if (Items.Contains(s))
             {
                 Items.Remove(s);
             }
                     
         }
-      
     }
 }

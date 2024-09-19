@@ -7,16 +7,12 @@
       "RelativeMoniker": "D:0:0:{DA06B706-97BE-4F74-B4A4-06DB0BF4EB7E}|MyTodos\\MyTodos.csproj|solutionrelative:mytodos\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA06B706-97BE-4F74-B4A4-06DB0BF4EB7E}|MyTodos\\MyTodos.csproj|c:\\users\\esdra\\desktop\\university\\2024\\q3-2024\\programacion ii\\proyectodeclase\\mytodos\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA06B706-97BE-4F74-B4A4-06DB0BF4EB7E}|MyTodos\\MyTodos.csproj|solutionrelative:mytodos\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DA06B706-97BE-4F74-B4A4-06DB0BF4EB7E}|MyTodos\\MyTodos.csproj|c:\\users\\esdra\\desktop\\university\\2024\\q3-2024\\programacion ii\\proyectodeclase\\mytodos\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA06B706-97BE-4F74-B4A4-06DB0BF4EB7E}|MyTodos\\MyTodos.csproj|solutionrelative:mytodos\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA06B706-97BE-4F74-B4A4-06DB0BF4EB7E}|MyTodos\\MyTodos.csproj|c:\\users\\esdra\\desktop\\university\\2024\\q3-2024\\programacion ii\\proyectodeclase\\mytodos\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA06B706-97BE-4F74-B4A4-06DB0BF4EB7E}|MyTodos\\MyTodos.csproj|solutionrelative:mytodos\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA06B706-97BE-4F74-B4A4-06DB0BF4EB7E}|MyTodos\\MyTodos.csproj|c:\\users\\esdra\\desktop\\university\\2024\\q3-2024\\programacion ii\\proyectodeclase\\mytodos\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA06B706-97BE-4F74-B4A4-06DB0BF4EB7E}|MyTodos\\MyTodos.csproj|solutionrelative:mytodos\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,47 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\esdra\\Desktop\\University\\2024\\Q3-2024\\Programacion II\\ProyectoDeClase\\MyTodos\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "MyTodos\\MauiProgram.cs",
-              "ToolTip": "C:\\Users\\esdra\\Desktop\\University\\2024\\Q3-2024\\Programacion II\\ProyectoDeClase\\MyTodos\\MauiProgram.cs",
-              "RelativeToolTip": "MyTodos\\MauiProgram.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBMAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T04:44:18.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\esdra\\Desktop\\University\\2024\\Q3-2024\\Programacion II\\ProyectoDeClase\\MyTodos\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "MyTodos\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\esdra\\Desktop\\University\\2024\\Q3-2024\\Programacion II\\ProyectoDeClase\\MyTodos\\MainPage.xaml.cs",
-              "RelativeToolTip": "MyTodos\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T04:40:20.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\esdra\\Desktop\\University\\2024\\Q3-2024\\Programacion II\\ProyectoDeClase\\MyTodos\\ViewModel\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "MyTodos\\ViewModel\\MainViewModel.cs",
-              "ToolTip": "C:\\Users\\esdra\\Desktop\\University\\2024\\Q3-2024\\Programacion II\\ProyectoDeClase\\MyTodos\\ViewModel\\MainViewModel.cs",
-              "RelativeToolTip": "MyTodos\\ViewModel\\MainViewModel.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA1wCUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T04:08:04.63Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -75,9 +32,35 @@
               "RelativeDocumentMoniker": "MyTodos\\MainPage.xaml",
               "ToolTip": "C:\\Users\\esdra\\Desktop\\University\\2024\\Q3-2024\\Programacion II\\ProyectoDeClase\\MyTodos\\MainPage.xaml",
               "RelativeToolTip": "MyTodos\\MainPage.xaml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADcAAACNAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-09-03T04:19:36.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\esdra\\Desktop\\University\\2024\\Q3-2024\\Programacion II\\ProyectoDeClase\\MyTodos\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MyTodos\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\esdra\\Desktop\\University\\2024\\Q3-2024\\Programacion II\\ProyectoDeClase\\MyTodos\\MainPage.xaml.cs",
+              "RelativeToolTip": "MyTodos\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T00:25:26.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\esdra\\Desktop\\University\\2024\\Q3-2024\\Programacion II\\ProyectoDeClase\\MyTodos\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "MyTodos\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\esdra\\Desktop\\University\\2024\\Q3-2024\\Programacion II\\ProyectoDeClase\\MyTodos\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "MyTodos\\ViewModel\\MainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T21:33:23.934Z",
               "EditorCaption": ""
             }
           ]

@@ -9,8 +9,6 @@ namespace MyTodos
             InitializeComponent();
             BindingContext = vm;
         }
-
-       
     }
 
 }

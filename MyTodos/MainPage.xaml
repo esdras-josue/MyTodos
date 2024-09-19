@@ -23,7 +23,7 @@
         <Entry Placeholder="Add something to do..."
                Text="{Binding Text}"
                Grid.Row="1"
-               FontSize="15"/>
+               FontSize="18"/>
         
         <Button Text="Save"
                 Command="{Binding AddCommand}"
@@ -36,7 +36,8 @@
             Grid.ColumnSpan="2"
             HorizontalOptions="FillAndExpand"
             VerticalOptions="FillAndExpand"
-            ItemsSource="{Binding Items}">
+            ItemsSource="{Binding Items}"
+            SelectionMode="None">
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="{x:Type x:String}">
                     <Grid Padding="0,5" ColumnDefinitions="*,Auto">
