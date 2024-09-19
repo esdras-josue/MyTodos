@@ -1,43 +1,46 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using System.Collections.ObjectModel;
-using System.ComponentModel;
 
 namespace MyTodos.ViewModel
 {
     public partial class MainViewModel : ObservableObject
     {
-        public MainViewModel() 
-        {
-            Items = new ObservableCollection<string>();
-        }
-
+        // Las propiedades se generan automáticamente a partir de los atributos [ObservableProperty]
         [ObservableProperty]
-        ObservableCollection<string> items;
+        ObservableCollection<string> items = new ObservableCollection<string>();
 
         [ObservableProperty]
         string text;
 
+        // Los comandos se generan automáticamente a partir de los atributos [RelayCommand]
         [RelayCommand]
         void Add()
         {
-            if (string.IsNullOrWhiteSpace(text))
+            if (string.IsNullOrWhiteSpace(Text))
                 return;
 
-            Items.Add(text);
-            // agregar una tarea
+            Items.Add(Text);
+            // Limpiar la entrada de texto
             Text = string.Empty;
         }
 
         [RelayCommand]
-        void Delete(string s)
+        void Delete(string item)
         {
-            if (Items.Contains(s))
+            if (Items.Contains(item))
             {
-                Items.Remove(s);
+                Items.Remove(item);
             }
-                    
         }
-      
+
+        [RelayCommand]
+        void EditItem(string item)
+        {
+            // Asignar el ítem al Text para que pueda ser editado
+            Text = item;
+            // Remover la tarea temporalmente de la lista
+            Items.Remove(item);
+        }
     }
 }

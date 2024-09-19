@@ -46,20 +46,28 @@
                     CornerRadius="10">
                             <StackLayout Orientation="Horizontal">
                                 <CheckBox
-                            VerticalOptions="Center"
+                                    VerticalOptions="Center"
                                     Color="#77DD77"/>
                                 <Label Text="{Binding .}"
-                               FontSize="15"
-                               VerticalOptions="Center"
-                               HorizontalOptions="StartAndExpand"/>
+                                    FontSize="15"
+                                    VerticalOptions="Center"
+                                    HorizontalOptions="StartAndExpand"/>
+                                <Button Text="Editar"
+                                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=EditCommand}"
+                                    CommandParameter="{Binding .}"
+                                    VerticalOptions="Center"
+                                    BackgroundColor="Blue"
+                                    TextColor="White"
+                                    WidthRequest="80"
+                                    HeightRequest="40"/>
                                 <Button Text="Remove"
-                                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=DeleteCommand}"
-                                CommandParameter="{Binding .}"
-                                VerticalOptions="Center"
-                                BackgroundColor="Red"
-                                TextColor="White"
-                                WidthRequest="80"
-                                HeightRequest="40"/>
+                                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=DeleteCommand}"
+                                    CommandParameter="{Binding .}"
+                                    VerticalOptions="Center"
+                                    BackgroundColor="Red"
+                                    TextColor="White"
+                                    WidthRequest="80"
+                                    HeightRequest="40"/>
                             </StackLayout>
                         </Frame>
                     </Grid>
