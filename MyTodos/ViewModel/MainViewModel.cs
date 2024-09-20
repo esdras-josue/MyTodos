@@ -1,46 +1,93 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using System.Collections.ObjectModel;
+using MyTodos.Services;
+using System.Threading.Tasks;
 
 namespace MyTodos.ViewModel
 {
     public partial class MainViewModel : ObservableObject
     {
-        // Las propiedades se generan automáticamente a partir de los atributos [ObservableProperty]
         [ObservableProperty]
-        ObservableCollection<string> items = new ObservableCollection<string>();
+        ObservableCollection<TodoItem> items = new ObservableCollection<TodoItem>(); // Inicialización directa
 
         [ObservableProperty]
         string text;
 
-        // Los comandos se generan automáticamente a partir de los atributos [RelayCommand]
+        public MainViewModel()
+        {
+            LoadItemsAsync().ConfigureAwait(false); // Cargar elementos al iniciar el ViewModel
+        }
+
+        // Método para cargar las tareas desde la base de datos
+        public async Task LoadItemsAsync()
+        {
+            try
+            {
+                var todoItems = await App.Database.GetItemsAsync();
+                if (todoItems != null)
+                {
+                    Items = new ObservableCollection<TodoItem>(todoItems);
+                }
+            }
+            catch (Exception ex)
+            {
+                // Manejo de excepciones
+                Console.WriteLine($"Error cargando los elementos: {ex.Message}");
+            }
+        }
+
+        // Comando para añadir una nueva tarea
         [RelayCommand]
-        void Add()
+        public async Task AddAsync()
         {
             if (string.IsNullOrWhiteSpace(Text))
                 return;
 
-            Items.Add(Text);
-            // Limpiar la entrada de texto
-            Text = string.Empty;
-        }
+            var newItem = new TodoItem { Text = Text, IsCompleted = false };
 
-        [RelayCommand]
-        void Delete(string item)
-        {
-            if (Items.Contains(item))
+            try
             {
-                Items.Remove(item);
+                await App.Database.SaveItemAsync(newItem);
+                Items.Add(newItem); // Añadir el nuevo ítem a la lista observable
+                Text = string.Empty; // Limpiar el texto de entrada
+            }
+            catch (Exception ex)
+            {
+                // Manejo de excepciones
+                Console.WriteLine($"Error al añadir el elemento: {ex.Message}");
             }
         }
 
+        // Comando para eliminar una tarea
         [RelayCommand]
-        void EditItem(string item)
+        public async Task DeleteAsync(TodoItem item)
         {
-            // Asignar el ítem al Text para que pueda ser editado
-            Text = item;
-            // Remover la tarea temporalmente de la lista
-            Items.Remove(item);
+            if (item == null || !Items.Contains(item))
+                return;
+
+            try
+            {
+                await App.Database.DeleteItemAsync(item);
+                Items.Remove(item); // Eliminar de la colección observable
+            }
+            catch (Exception ex)
+            {
+                // Manejo de excepciones
+                Console.WriteLine($"Error al eliminar el elemento: {ex.Message}");
+            }
+        }
+
+        // Comando para editar una tarea
+        [RelayCommand]
+        public void EditItem(TodoItem item)
+        {
+            if (item == null)
+                return;
+
+            Text = item.Text; // Asigna el texto a la propiedad de entrada
+            Items.Remove(item); // Eliminar temporalmente de la lista para su edición
         }
     }
 }
+

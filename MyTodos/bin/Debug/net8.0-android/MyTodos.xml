@@ -20,19 +20,19 @@
             <summary>The backing field for <see cref="P:MyTodos.ViewModel.MainViewModel.AddCommand"/>.</summary>
         </member>
         <member name="P:MyTodos.ViewModel.MainViewModel.AddCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MyTodos.ViewModel.MainViewModel.Add"/>.</summary>
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MyTodos.ViewModel.MainViewModel.AddAsync"/>.</summary>
         </member>
         <member name="F:MyTodos.ViewModel.MainViewModel.deleteCommand">
             <summary>The backing field for <see cref="P:MyTodos.ViewModel.MainViewModel.DeleteCommand"/>.</summary>
         </member>
         <member name="P:MyTodos.ViewModel.MainViewModel.DeleteCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:MyTodos.ViewModel.MainViewModel.Delete(System.String)"/>.</summary>
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:MyTodos.ViewModel.MainViewModel.DeleteAsync(MyTodos.Services.TodoItem)"/>.</summary>
         </member>
         <member name="F:MyTodos.ViewModel.MainViewModel.editItemCommand">
             <summary>The backing field for <see cref="P:MyTodos.ViewModel.MainViewModel.EditItemCommand"/>.</summary>
         </member>
         <member name="P:MyTodos.ViewModel.MainViewModel.EditItemCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:MyTodos.ViewModel.MainViewModel.EditItem(System.String)"/>.</summary>
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:MyTodos.ViewModel.MainViewModel.EditItem(MyTodos.Services.TodoItem)"/>.</summary>
         </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
             <summary>

@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\usuario 1\\Documents\\GitHub\\MyTodos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DA06B706-97BE-4F74-B4A4-06DB0BF4EB7E}|MyTodos\\MyTodos.csproj|c:\\users\\usuario 1\\documents\\github\\mytodos\\mytodos\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA06B706-97BE-4F74-B4A4-06DB0BF4EB7E}|MyTodos\\MyTodos.csproj|solutionrelative:mytodos\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DA06B706-97BE-4F74-B4A4-06DB0BF4EB7E}|MyTodos\\MyTodos.csproj|c:\\users\\usuario 1\\documents\\github\\mytodos\\mytodos\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{DA06B706-97BE-4F74-B4A4-06DB0BF4EB7E}|MyTodos\\MyTodos.csproj|solutionrelative:mytodos\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DA06B706-97BE-4F74-B4A4-06DB0BF4EB7E}|MyTodos\\MyTodos.csproj|c:\\users\\usuario 1\\documents\\github\\mytodos\\mytodos\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA06B706-97BE-4F74-B4A4-06DB0BF4EB7E}|MyTodos\\MyTodos.csproj|solutionrelative:mytodos\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DA06B706-97BE-4F74-B4A4-06DB0BF4EB7E}|MyTodos\\MyTodos.csproj|c:\\users\\usuario 1\\documents\\github\\mytodos\\mytodos\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA06B706-97BE-4F74-B4A4-06DB0BF4EB7E}|MyTodos\\MyTodos.csproj|solutionrelative:mytodos\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA06B706-97BE-4F74-B4A4-06DB0BF4EB7E}|MyTodos\\MyTodos.csproj|c:\\users\\usuario 1\\documents\\github\\mytodos\\mytodos\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA06B706-97BE-4F74-B4A4-06DB0BF4EB7E}|MyTodos\\MyTodos.csproj|solutionrelative:mytodos\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA06B706-97BE-4F74-B4A4-06DB0BF4EB7E}|MyTodos\\MyTodos.csproj|c:\\users\\usuario 1\\documents\\github\\mytodos\\mytodos\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA06B706-97BE-4F74-B4A4-06DB0BF4EB7E}|MyTodos\\MyTodos.csproj|solutionrelative:mytodos\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA06B706-97BE-4F74-B4A4-06DB0BF4EB7E}|MyTodos\\MyTodos.csproj|c:\\users\\usuario 1\\documents\\github\\mytodos\\mytodos\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA06B706-97BE-4F74-B4A4-06DB0BF4EB7E}|MyTodos\\MyTodos.csproj|solutionrelative:mytodos\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA06B706-97BE-4F74-B4A4-06DB0BF4EB7E}|MyTodos\\MyTodos.csproj|c:\\users\\usuario 1\\documents\\github\\mytodos\\mytodos\\services\\tododatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA06B706-97BE-4F74-B4A4-06DB0BF4EB7E}|MyTodos\\MyTodos.csproj|solutionrelative:mytodos\\services\\tododatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA06B706-97BE-4F74-B4A4-06DB0BF4EB7E}|MyTodos\\MyTodos.csproj|c:\\users\\usuario 1\\documents\\github\\mytodos\\mytodos\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,8 +42,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\usuario 1\\Documents\\GitHub\\MyTodos\\MyTodos\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MyTodos\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\usuario 1\\Documents\\GitHub\\MyTodos\\MyTodos\\MainPage.xaml",
+              "RelativeToolTip": "MyTodos\\MainPage.xaml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-19T23:57:25.6Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -38,52 +68,94 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\usuario 1\\Documents\\GitHub\\MyTodos\\MyTodos\\AppShell.xaml",
+              "RelativeDocumentMoniker": "MyTodos\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\usuario 1\\Documents\\GitHub\\MyTodos\\MyTodos\\AppShell.xaml",
+              "RelativeToolTip": "MyTodos\\AppShell.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-20T01:02:47.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\usuario 1\\Documents\\GitHub\\MyTodos\\MyTodos\\MauiProgram.cs",
               "RelativeDocumentMoniker": "MyTodos\\MauiProgram.cs",
               "ToolTip": "C:\\Users\\usuario 1\\Documents\\GitHub\\MyTodos\\MyTodos\\MauiProgram.cs",
               "RelativeToolTip": "MyTodos\\MauiProgram.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAiAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T04:44:18.31Z"
+              "WhenOpened": "2024-09-20T00:08:49.562Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\usuario 1\\Documents\\GitHub\\MyTodos\\MyTodos\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "MyTodos\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\usuario 1\\Documents\\GitHub\\MyTodos\\MyTodos\\MainPage.xaml.cs",
-              "RelativeToolTip": "MyTodos\\MainPage.xaml.cs",
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\usuario 1\\Documents\\GitHub\\MyTodos\\MyTodos\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "MyTodos\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\usuario 1\\Documents\\GitHub\\MyTodos\\MyTodos\\AppShell.xaml.cs",
+              "RelativeToolTip": "MyTodos\\AppShell.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T04:40:20.125Z"
+              "WhenOpened": "2024-09-20T00:08:46.406Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\usuario 1\\Documents\\GitHub\\MyTodos\\MyTodos\\App.xaml.cs",
+              "RelativeDocumentMoniker": "MyTodos\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\usuario 1\\Documents\\GitHub\\MyTodos\\MyTodos\\App.xaml.cs",
+              "RelativeToolTip": "MyTodos\\App.xaml.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAA0wCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T00:08:40.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "C:\\Users\\usuario 1\\Documents\\GitHub\\MyTodos\\MyTodos\\ViewModel\\MainViewModel.cs",
               "RelativeDocumentMoniker": "MyTodos\\ViewModel\\MainViewModel.cs",
               "ToolTip": "C:\\Users\\usuario 1\\Documents\\GitHub\\MyTodos\\MyTodos\\ViewModel\\MainViewModel.cs",
               "RelativeToolTip": "MyTodos\\ViewModel\\MainViewModel.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAA2wCoAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFUAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T04:08:04.63Z",
+              "WhenOpened": "2024-09-20T00:08:34.435Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\usuario 1\\Documents\\GitHub\\MyTodos\\MyTodos\\MainPage.xaml",
-              "RelativeDocumentMoniker": "MyTodos\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\usuario 1\\Documents\\GitHub\\MyTodos\\MyTodos\\MainPage.xaml",
-              "RelativeToolTip": "MyTodos\\MainPage.xaml",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAAEYAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-03T04:19:36.985Z"
+              "DocumentIndex": 6,
+              "Title": "TodoDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\usuario 1\\Documents\\GitHub\\MyTodos\\MyTodos\\Services\\TodoDatabase.cs",
+              "RelativeDocumentMoniker": "MyTodos\\Services\\TodoDatabase.cs",
+              "ToolTip": "C:\\Users\\usuario 1\\Documents\\GitHub\\MyTodos\\MyTodos\\Services\\TodoDatabase.cs",
+              "RelativeToolTip": "MyTodos\\Services\\TodoDatabase.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAIwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T00:08:27.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\usuario 1\\Documents\\GitHub\\MyTodos\\MyTodos\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MyTodos\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\usuario 1\\Documents\\GitHub\\MyTodos\\MyTodos\\MainPage.xaml.cs",
+              "RelativeToolTip": "MyTodos\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T04:40:20.125Z",
+              "EditorCaption": ""
             }
           ]
         }
